@@ -39,6 +39,7 @@ class UpdateLessonRequest extends FormRequest
                 'required',
                 'after:start_time',
                 'date_format:' . config('panel.lesson_time_format')],
+            'title'=>['required','string'],
         ];
     }
 }

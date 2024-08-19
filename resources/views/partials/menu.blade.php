@@ -56,14 +56,6 @@
                                     مدرس
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ route("admin.users.index") }}?role=4" class="nav-link {{ request()->is('admin/users') || request()->is('admin/users/*') ? 'active' : '' }}">
-                                    <i class="fa-fw fas fa-user nav-icon">
-
-                                    </i>
-                                    دانشجو
-                                </a>
-                            </li>
                         @endcan
                     </ul>
                 </li>

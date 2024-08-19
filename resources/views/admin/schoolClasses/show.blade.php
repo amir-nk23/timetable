@@ -52,19 +52,19 @@
                 {{ trans('cruds.lesson.title') }}
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#class_users" role="tab" data-toggle="tab">
-                {{ trans('cruds.user.title') }}
-            </a>
-        </li>
+{{--        <li class="nav-item">--}}
+{{--            <a class="nav-link" href="#class_users" role="tab" data-toggle="tab">--}}
+{{--                {{ trans('cruds.user.title') }}--}}
+{{--            </a>--}}
+{{--        </li>--}}
     </ul>
     <div class="tab-content">
         <div class="tab-pane" role="tabpanel" id="class_lessons">
             @includeIf('admin.schoolClasses.relationships.classLessons', ['lessons' => $schoolClass->classLessons])
         </div>
-        <div class="tab-pane" role="tabpanel" id="class_users">
-            @includeIf('admin.schoolClasses.relationships.classUsers', ['users' => $schoolClass->classUsers])
-        </div>
+{{--        <div class="tab-pane" role="tabpanel" id="class_users">--}}
+{{--            @includeIf('admin.schoolClasses.relationships.classUsers', ['users' => $schoolClass->classUsers])--}}
+{{--        </div>--}}
     </div>
 </div>
 

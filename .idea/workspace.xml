@@ -5,152 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd7b6f58-f3dd-4a31-927e-6ee29f270af5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_8_8_24__9_44_AM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Bold-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Medium-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Thin-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Vazir.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Bold-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Light-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Medium-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-Thin-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/vazir-font-v18.0.0/Without-Latin/Vazir-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/cruds.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/global.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/panel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CalendarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CalendarController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LessonsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LessonsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PermissionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PermissionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RolesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RolesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SchoolClassesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SchoolClassesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MassDestroyLessonRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MassDestroyLessonRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MassDestroyPermissionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MassDestroyPermissionRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MassDestroyRoleRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MassDestroyRoleRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MassDestroySchoolClassRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MassDestroySchoolClassRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MassDestroyUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MassDestroyUserRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreLessonRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreLessonRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StorePermissionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StorePermissionRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreRoleRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreRoleRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreSchoolClassRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreSchoolClassRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreUserRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateLessonRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateLessonRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdatePermissionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdatePermissionRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateRoleRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateRoleRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateSchoolClassRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateSchoolClassRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lesson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CalendarService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CalendarService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/panel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_13_000004_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_13_000004_create_lessons_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/PermissionRoleTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PermissionRoleTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/PermissionsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PermissionsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/RoleUserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RoleUserTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/RolesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RolesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SchoolClassesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SchoolClassesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/calendar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/calendar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/lessons/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/lessons/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/lessons/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/lessons/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/lessons/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/lessons/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/permissions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/permissions/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/permissions/relationships/permissionsRoles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/permissions/relationships/permissionsRoles.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/roles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/roles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/roles/relationships/rolesUsers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/roles/relationships/rolesUsers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/schoolClasses/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/schoolClasses/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/relationships/teacherLessons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/relationships/teacherLessons.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/schoolClasses/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/schoolClasses/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" afterDir="false" />
     </list>
@@ -423,7 +288,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Laravel-School-Timetable-Calendar/public",
+    "last_opened_file_path": "D:/Laravel-School-Timetable-Calendar/public/datePicker",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -435,6 +300,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Laravel-School-Timetable-Calendar\public\datePicker" />
       <recent name="D:\Laravel-School-Timetable-Calendar\public" />
       <recent name="D:\Laravel-School-Timetable-Calendar\resources\lang\fa" />
       <recent name="D:\Laravel-School-Timetable-Calendar\resources\lang" />
@@ -471,7 +337,7 @@
       <workItem from="1723271323970" duration="904000" />
       <workItem from="1723527701724" duration="14085000" />
       <workItem from="1723551891527" duration="1512000" />
-      <workItem from="1724048306359" duration="9218000" />
+      <workItem from="1724048306359" duration="20633000" />
     </task>
     <servers />
   </component>

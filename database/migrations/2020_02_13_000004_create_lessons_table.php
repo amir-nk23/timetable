@@ -12,6 +12,7 @@ class CreateLessonsTable extends Migration
             $table->increments('id');
             $table->integer('weekday');
             $table->string('color');
+            $table->string('title');
             $table->time('start_time');
             $table->time('end_time');
             $table->timestamps();

@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Attribute;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -28,6 +29,7 @@ class Lesson extends Model
         'created_at',
         'updated_at',
         'deleted_at',
+        'title'
     ];
 
     const WEEK_DAYS = [
@@ -58,6 +60,19 @@ class Lesson extends Model
     public function getEndTimeAttribute($value)
     {
         return $value ? Carbon::createFromFormat('H:i:s', $value)->format(config('panel.lesson_time_format')) : null;
+    }
+
+    public function showDay()
+    {
+        $weekDay =self::WEEK_DAYS;
+
+            foreach ($weekDay as $key => $value) {
+
+                    if ($this->getAttribute('weekday') == $key) {
+
+                        return $this->setAttribute('day', $value);
+                    }
+            }
     }
 
     public function setEndTimeAttribute($value)

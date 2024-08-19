@@ -35,14 +35,14 @@ class LessonsController extends Controller
 
             $query->where('title','مدرس');
 
-        })->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
-
-
-        return view('admin.lessons.create', compact('classes', 'teachers'));
+        })->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), );
+        $weekDays = Lesson::WEEK_DAYS;
+        return view('admin.lessons.create', compact('classes', 'teachers','weekDays'));
     }
 
     public function store(StoreLessonRequest $request)
     {
+        dd($request->all());
         $lesson = Lesson::create($request->all());
 
         return redirect()->route('admin.lessons.index');
@@ -58,7 +58,8 @@ class LessonsController extends Controller
 
         $lesson->load('class', 'teacher');
 
-        return view('admin.lessons.edit', compact('classes', 'teachers', 'lesson'));
+        $weekDays = Lesson::WEEK_DAYS;
+        return view('admin.lessons.edit', compact('classes', 'teachers', 'lesson','weekDays'));
     }
 
     public function update(UpdateLessonRequest $request, Lesson $lesson)

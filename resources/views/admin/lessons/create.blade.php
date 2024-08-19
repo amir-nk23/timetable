@@ -38,8 +38,24 @@
                 <span class="help-block">{{ trans('cruds.lesson.fields.teacher_helper') }}</span>
             </div>
             <div class="form-group">
-                <label class="required" for="weekday">{{ trans('cruds.lesson.fields.weekday') }}</label>
-                <input class="form-control {{ $errors->has('weekday') ? 'is-invalid' : '' }}" type="number" name="weekday" id="weekday" value="{{ old('weekday') }}" step="1" required>
+                <label class="required" for="title">عنوان درس :</label>
+                <input class="form-control {{ $errors->has('title') ? 'is-invalid' : '' }}" type="text" name="title" id="weekday" value="{{ old('title') }}" step="1" required>
+                @if($errors->has('title'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('title') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.lesson.fields.weekday_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label class="required" for="weekday">{{trans('cruds.lesson.fields.weekday')}}</label>
+                <select class="form-control {{ $errors->has('weekday') ? 'is-invalid' : '' }}" type="number" name="weekday" id="weekday" value="{{ old('weekday') }}" step="1" required>
+                @foreach($weekDays as $key => $value)
+
+                    <option value="{{$key}}" >{{$value}}</option>
+
+                @endforeach
+                </select>
                 @if($errors->has('weekday'))
                     <div class="invalid-feedback">
                         {{ $errors->first('weekday') }}
@@ -68,6 +84,16 @@
                 <span class="help-block">{{ trans('cruds.lesson.fields.end_time_helper') }}</span>
             </div>
             <div class="form-group">
+                <label class="required"  for="end_date">تاریخ پایان کلاس</label>
+                <input class="form-control normal-example  {{ $errors->has('end_date') ? 'is-invalid' : '' }}" type="text" name="end_date" id="end_date" value="{{ old('end_date') }}" required>
+                @if($errors->has('end_date'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('end_time') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.lesson.fields.end_time_helper') }}</span>
+            </div>
+            <div class="form-group">
                 <label class="" for="color">رنگ کلاس :</label>
                 <input class="{{ $errors->has('color') ? 'is-invalid' : '' }}" style="vertical-align: top;margin-left: 3px"  type="color" name="color"  value="{{ old('color') }}" required>
                 @if($errors->has('end_time'))
@@ -85,7 +111,5 @@
         </form>
     </div>
 </div>
-
-
 
 @endsection

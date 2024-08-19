@@ -62,7 +62,7 @@
                                 {{ $lesson->teacher->name ?? '' }}
                             </td>
                             <td>
-                                {{ $lesson->weekday ?? '' }}
+                                {{ $lesson->showDay()->day ?? '' }}
                             </td>
                             <td>
                                 {{ $lesson->start_time ?? '' }}

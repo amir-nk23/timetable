@@ -231,7 +231,7 @@ return [
     ],
 
     'calendar' => [
-        'start_time'    => '03:00',
+        'start_time'    => '09:00',
         'end_time'      => '23:00',
     ],
 ];
