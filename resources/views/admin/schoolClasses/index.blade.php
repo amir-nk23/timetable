@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 @section('content')
-@can('school_class_create')
+@can('ایجاد کلاس')
     <div style="margin-bottom: 10px;" class="row">
         <div class="col-lg-12">
             <a class="btn btn-success" href="{{ route("admin.school-classes.create") }}">
@@ -29,7 +29,7 @@
                             {{ trans('cruds.schoolClass.fields.name') }}
                         </th>
                         <th>
-                            Schedule
+                            برنامه کلاسی
                         </th>
                         <th>
                             &nbsp;
@@ -49,22 +49,22 @@
                                 {{ $schoolClass->name ?? '' }}
                             </td>
                             <td>
-                                <a href="{{ route('admin.calendar.index') }}?class_id={{ $schoolClass->id }}">View Schedule</a>
+                                <a href="{{ route('admin.calendar.index') }}?class_id={{ $schoolClass->id }}">مشاهده برنامه کلاسی</a>
                             </td>
                             <td>
-                                @can('school_class_show')
+                                @can('نمایش اطلاعات کلاس')
                                     <a class="btn btn-xs btn-primary" href="{{ route('admin.school-classes.show', $schoolClass->id) }}">
                                         {{ trans('global.view') }}
                                     </a>
                                 @endcan
 
-                                @can('school_class_edit')
+                                @can('ویرایش کلاس')
                                     <a class="btn btn-xs btn-info" href="{{ route('admin.school-classes.edit', $schoolClass->id) }}">
                                         {{ trans('global.edit') }}
                                     </a>
                                 @endcan
 
-                                @can('school_class_delete')
+                                @can('حذف کلاس')
                                     <form action="{{ route('admin.school-classes.destroy', $schoolClass->id) }}" method="POST" onsubmit="return confirm('{{ trans('global.areYouSure') }}');" style="display: inline-block;">
                                         <input type="hidden" name="_method" value="DELETE">
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -90,7 +90,7 @@
 <script>
     $(function () {
   let dtButtons = $.extend(true, [], $.fn.dataTable.defaults.buttons)
-@can('school_class_delete')
+@can('حذف کلاس')
   let deleteButtonTrans = '{{ trans('global.datatables.delete') }}'
   let deleteButton = {
     text: deleteButtonTrans,

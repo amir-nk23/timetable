@@ -12,7 +12,7 @@ class StoreLessonRequest extends FormRequest
 {
     public function authorize()
     {
-        abort_if(Gate::denies('lesson_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('ایجاد درس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return true;
     }

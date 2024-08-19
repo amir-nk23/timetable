@@ -28,7 +28,8 @@ class CalendarService
                     array_push($calendarData[$timeText], [
                         'class_name'   => $lesson->class->name,
                         'teacher_name' => $lesson->teacher->name,
-                        'rowspan'      => $lesson->difference/30 ?? ''
+                        'color' => $lesson->color,
+                        'rowspan' => $lesson->difference/30 ?? ''
                     ]);
                 }
                 else if (!$lessons->where('weekday', $index)->where('start_time', '<', $time['start'])->where('end_time', '>=', $time['end'])->count())
@@ -41,7 +42,6 @@ class CalendarService
                 }
             }
         }
-
         return $calendarData;
     }
 }

@@ -10,107 +10,107 @@ class PermissionsTableSeeder extends Seeder
         $permissions = [
             [
                 'id'    => '1',
-                'title' => 'user_management_access',
+                'title' => 'دسترسی مدیریت کاربر',
             ],
             [
                 'id'    => '2',
-                'title' => 'permission_create',
+                'title' => 'ایجاد دسترسی',
             ],
             [
                 'id'    => '3',
-                'title' => 'permission_edit',
+                'title' => 'ویرایش دسترسی',
             ],
             [
                 'id'    => '4',
-                'title' => 'permission_show',
+                'title' => 'نمایش دسترسی',
             ],
             [
                 'id'    => '5',
-                'title' => 'permission_delete',
+                'title' => 'حذف دسترسی',
             ],
             [
                 'id'    => '6',
-                'title' => 'permission_access',
+                'title' => 'مدیریت دسترسی',
             ],
             [
                 'id'    => '7',
-                'title' => 'role_create',
+                'title' => 'ایجاد نقش',
             ],
             [
                 'id'    => '8',
-                'title' => 'role_edit',
+                'title' => 'ویرایش نقش',
             ],
             [
                 'id'    => '9',
-                'title' => 'role_show',
+                'title' => 'نمایش نقش',
             ],
             [
                 'id'    => '10',
-                'title' => 'role_delete',
+                'title' => 'حذف نقش',
             ],
             [
                 'id'    => '11',
-                'title' => 'role_access',
+                'title' => 'مدیریت نقش',
             ],
             [
                 'id'    => '12',
-                'title' => 'user_create',
+                'title' => 'ایجاد کاربر'
             ],
             [
                 'id'    => '13',
-                'title' => 'user_edit',
+                'title' => 'ویرایش کاربر',
             ],
             [
                 'id'    => '14',
-                'title' => 'user_show',
+                'title' => 'نمایش کاربر',
             ],
             [
                 'id'    => '15',
-                'title' => 'user_delete',
+                'title' => 'حذف کاربر',
             ],
             [
                 'id'    => '16',
-                'title' => 'user_access',
+                'title' => 'دسترسی کاربر',
             ],
             [
                 'id'    => '17',
-                'title' => 'lesson_create',
+                'title' => 'ایجاد درس',
             ],
             [
                 'id'    => '18',
-                'title' => 'lesson_edit',
+                'title' => 'ویرایش درس',
             ],
             [
                 'id'    => '19',
-                'title' => 'lesson_show',
+                'title' => 'نمایش درس',
             ],
             [
                 'id'    => '20',
-                'title' => 'lesson_delete',
+                'title' => 'حذف درس',
             ],
             [
                 'id'    => '21',
-                'title' => 'lesson_access',
+                'title' => 'دسترسی دروس',
             ],
             [
                 'id'    => '22',
-                'title' => 'school_class_create',
+                'title' => 'ایجاد کلاس',
             ],
             [
                 'id'    => '23',
-                'title' => 'school_class_edit',
+                'title' => 'ویرایش کلاس',
             ],
             [
                 'id'    => '24',
-                'title' => 'school_class_show',
+                'title' => 'نمایش اطلاعات کلاس',
             ],
             [
                 'id'    => '25',
-                'title' => 'school_class_delete',
+                'title' => 'حذف کلاس',
             ],
             [
                 'id'    => '26',
-                'title' => 'school_class_access',
+                'title' => 'دسترسی به کلاس ها',
             ],
         ];
 

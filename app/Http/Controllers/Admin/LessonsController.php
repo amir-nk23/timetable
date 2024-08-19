@@ -9,6 +9,7 @@ use App\Http\Requests\UpdateLessonRequest;
 use App\Lesson;
 use App\SchoolClass;
 use App\User;
+use Dflydev\DotAccessData\Data;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -17,7 +18,7 @@ class LessonsController extends Controller
 {
     public function index()
     {
-        abort_if(Gate::denies('lesson_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('دسترسی دروس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $lessons = Lesson::all();
 
@@ -26,11 +27,16 @@ class LessonsController extends Controller
 
     public function create()
     {
-        abort_if(Gate::denies('lesson_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('ایجاد درس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $classes = SchoolClass::all()->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
 
-        $teachers = User::all()->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
+        $teachers = User::query()->whereHas('roles',function ($query){
+
+            $query->where('title','مدرس');
+
+        })->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
+
 
         return view('admin.lessons.create', compact('classes', 'teachers'));
     }
@@ -44,7 +50,7 @@ class LessonsController extends Controller
 
     public function edit(Lesson $lesson)
     {
-        abort_if(Gate::denies('lesson_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('ویرایش درس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $classes = SchoolClass::all()->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
 
@@ -64,7 +70,7 @@ class LessonsController extends Controller
 
     public function show(Lesson $lesson)
     {
-        abort_if(Gate::denies('lesson_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('نمایش درس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $lesson->load('class', 'teacher');
 
@@ -73,7 +79,7 @@ class LessonsController extends Controller
 
     public function destroy(Lesson $lesson)
     {
-        abort_if(Gate::denies('lesson_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('حذف درس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $lesson->delete();
 

@@ -23,6 +23,7 @@ class Lesson extends Model
         'class_id',
         'end_time',
         'teacher_id',
+        'color',
         'start_time',
         'created_at',
         'updated_at',
@@ -30,13 +31,12 @@ class Lesson extends Model
     ];
 
     const WEEK_DAYS = [
-        '1' => 'Monday',
-        '2' => 'Tuesday',
-        '3' => 'Wednesday',
-        '4' => 'Thursday',
-        '5' => 'Friday',
-        '6' => 'Saturday',
-        '7' => 'Sunday',
+        '1' => 'شنبه',
+        '2' => 'یکشنبه',
+        '3' => 'دوشنبه',
+        '4' => 'سه شنبه',
+        '5' => 'چهارشنبه',
+        '6' => 'پنج شنبه',
     ];
 
     public function getDifferenceAttribute()

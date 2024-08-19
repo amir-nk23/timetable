@@ -15,7 +15,7 @@ class SchoolClassesController extends Controller
 {
     public function index()
     {
-        abort_if(Gate::denies('school_class_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('دسترسی به کلاس ها'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $schoolClasses = SchoolClass::all();
 
@@ -24,7 +24,7 @@ class SchoolClassesController extends Controller
 
     public function create()
     {
-        abort_if(Gate::denies('school_class_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('ایجاد کلاس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.schoolClasses.create');
     }
@@ -38,7 +38,7 @@ class SchoolClassesController extends Controller
 
     public function edit(SchoolClass $schoolClass)
     {
-        abort_if(Gate::denies('school_class_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('ویرایش کلاس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return view('admin.schoolClasses.edit', compact('schoolClass'));
     }
@@ -52,7 +52,7 @@ class SchoolClassesController extends Controller
 
     public function show(SchoolClass $schoolClass)
     {
-        abort_if(Gate::denies('school_class_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('نمایش اطلاعات کلاس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $schoolClass->load('classLessons', 'classUsers');
 
@@ -61,7 +61,7 @@ class SchoolClassesController extends Controller
 
     public function destroy(SchoolClass $schoolClass)
     {
-        abort_if(Gate::denies('school_class_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('حذف کلاس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         $schoolClass->delete();
 

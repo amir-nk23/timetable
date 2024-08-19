@@ -17,7 +17,7 @@
 
                     <table class="table table-bordered">
                         <thead>
-                            <th width="125">Time</th>
+                            <th width="125">ساعت</th>
                             @foreach($weekDays as $day)
                                 <th>{{ $day }}</th>
                             @endforeach
@@ -30,9 +30,9 @@
                                     </td>
                                     @foreach($days as $value)
                                         @if (is_array($value))
-                                            <td rowspan="{{ $value['rowspan'] }}" class="align-middle text-center" style="background-color:#f0f0f0">
+                                            <td rowspan="{{ $value['rowspan'] }}" class="align-middle text-center" style="background-color:{{$value['color']}};">
                                                 {{ $value['class_name'] }}<br>
-                                                Teacher: {{ $value['teacher_name'] }}
+                                                مدرس : {{ $value['teacher_name'] }}
                                             </td>
                                         @elseif ($value === 1)
                                             <td></td>

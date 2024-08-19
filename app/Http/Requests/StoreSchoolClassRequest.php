@@ -11,7 +11,7 @@ class StoreSchoolClassRequest extends FormRequest
 {
     public function authorize()
     {
-        abort_if(Gate::denies('school_class_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('ایجاد کلاس'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
         return true;
     }

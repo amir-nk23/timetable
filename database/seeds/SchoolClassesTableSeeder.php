@@ -15,12 +15,8 @@ class SchoolClassesTableSeeder extends Seeder
         $classes = [
             [
                 'id' => 1,
-                'name' => 'First class'
+                'name' => 'کلاس اول'
             ],
-            [
-                'id' => 2,
-                'name' => 'Second class'
-            ]
         ];
 
         SchoolClass::insert($classes);

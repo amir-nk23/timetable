@@ -68,6 +68,16 @@
                 <span class="help-block">{{ trans('cruds.lesson.fields.end_time_helper') }}</span>
             </div>
             <div class="form-group">
+                <label class="" for="color">رنگ کلاس :</label>
+                <input class="{{ $errors->has('color') ? 'is-invalid' : '' }}" style="vertical-align: top;margin-left: 3px"  type="color" name="color"  value="{{ old('color') }}" required>
+                @if($errors->has('end_time'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('end_time') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.lesson.fields.end_time_helper') }}</span>
+            </div>
+            <div class="form-group">
                 <button class="btn btn-danger" type="submit">
                     {{ trans('global.save') }}
                 </button>

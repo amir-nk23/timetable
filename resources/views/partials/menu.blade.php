@@ -10,7 +10,7 @@
                     {{ trans('global.dashboard') }}
                 </a>
             </li>
-            @can('user_management_access')
+            @can('دسترسی مدیریت کاربر')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">
                         <i class="fa-fw fas fa-users nav-icon">
@@ -19,7 +19,7 @@
                         {{ trans('cruds.userManagement.title') }}
                     </a>
                     <ul class="nav-dropdown-items">
-                        @can('permission_access')
+                        @can('مدیریت دسترسی')
                             <li class="nav-item">
                                 <a href="{{ route("admin.permissions.index") }}" class="nav-link {{ request()->is('admin/permissions') || request()->is('admin/permissions/*') ? 'active' : '' }}">
                                     <i class="fa-fw fas fa-unlock-alt nav-icon">
@@ -29,7 +29,7 @@
                                 </a>
                             </li>
                         @endcan
-                        @can('role_access')
+                        @can('مدیریت نقش')
                             <li class="nav-item">
                                 <a href="{{ route("admin.roles.index") }}" class="nav-link {{ request()->is('admin/roles') || request()->is('admin/roles/*') ? 'active' : '' }}">
                                     <i class="fa-fw fas fa-briefcase nav-icon">
@@ -39,7 +39,7 @@
                                 </a>
                             </li>
                         @endcan
-                        @can('user_access')
+                        @can('دسترسی کاربر')
                             <li class="nav-item">
                                 <a href="{{ route("admin.users.index") }}" class="nav-link {{ request()->is('admin/users') || request()->is('admin/users/*') ? 'active' : '' }}">
                                     <i class="fa-fw fas fa-user nav-icon">
@@ -53,7 +53,7 @@
                                     <i class="fa-fw fas fa-user nav-icon">
 
                                     </i>
-                                    Teachers
+                                    مدرس
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -61,14 +61,14 @@
                                     <i class="fa-fw fas fa-user nav-icon">
 
                                     </i>
-                                    Students
+                                    دانشجو
                                 </a>
                             </li>
                         @endcan
                     </ul>
                 </li>
             @endcan
-            @can('school_class_access')
+            @can('دسترسی به کلاس ها')
                 <li class="nav-item">
                     <a href="{{ route("admin.school-classes.index") }}" class="nav-link {{ request()->is('admin/school-classes') || request()->is('admin/school-classes/*') ? 'active' : '' }}">
                         <i class="fa-fw fas fa-school nav-icon">
@@ -78,7 +78,7 @@
                     </a>
                 </li>
             @endcan
-            @can('lesson_access')
+            @can('دسترسی دروس')
                 <li class="nav-item">
                     <a href="{{ route("admin.lessons.index") }}" class="nav-link {{ request()->is('admin/lessons') || request()->is('admin/lessons/*') ? 'active' : '' }}">
                         <i class="fa-fw fas fa-clock nav-icon">
@@ -93,7 +93,7 @@
                     <i class="fa-fw fas fa-calendar nav-icon">
 
                     </i>
-                    Calendar
+                  ساعت کلاس ها
                 </a>
             </li>
             <li class="nav-item">
