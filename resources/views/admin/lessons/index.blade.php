@@ -26,6 +26,9 @@
                             {{ trans('cruds.lesson.fields.id') }}
                         </th>
                         <th>
+                            عنوان درس
+                        </th>
+                        <th>
                             {{ trans('cruds.lesson.fields.class') }}
                         </th>
                         <th>
@@ -40,6 +43,10 @@
                         <th>
                             {{ trans('cruds.lesson.fields.end_time') }}
                         </th>
+                        <th>
+                            تاریخ پایان کلاس
+                        </th>
+
 
                         <th>
                             عملیات
@@ -56,6 +63,9 @@
                                 {{ $lesson->id ?? '' }}
                             </td>
                             <td>
+                                {{$lesson->title}}
+                            </td>
+                            <td>
                                 {{ $lesson->class->name ?? '' }}
                             </td>
                             <td>
@@ -67,8 +77,12 @@
                             <td>
                                 {{ $lesson->start_time ?? '' }}
                             </td>
+
                             <td>
                                 {{ $lesson->end_time ?? '' }}
+                            </td>
+                            <td>
+                                {{ verta($lesson->end_date)->formatDate() ?? '' }}
                             </td>
                             <td>
                                 @can('نمایش درس')

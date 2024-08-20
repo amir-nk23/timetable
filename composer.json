@@ -13,6 +13,7 @@
         "doctrine/dbal": "^2.11",
         "fideloper/proxy": "^4.2",
         "guzzlehttp/guzzle": "^7.0.1",
+        "hekmatinasser/verta": "^8.4",
         "laravel/framework": "^8.0",
         "laravel/passport": "^10.0",
         "laravel/tinker": "^2.0",

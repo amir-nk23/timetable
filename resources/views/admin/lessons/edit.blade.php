@@ -85,6 +85,16 @@
                 <span class="help-block">{{ trans('cruds.lesson.fields.end_time_helper') }}</span>
             </div>
             <div class="form-group">
+                <label class="required"  for="end_date">تاریخ پایان کلاس</label>
+                <input class="form-control edit-end-date  {{ $errors->has('end_date') ? 'is-invalid' : '' }}" type="text" name="end_date" id="end_date" value="{{$lesson->end_date}}"  required>
+                @if($errors->has('end_date'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('end_time') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.lesson.fields.end_time_helper') }}</span>
+            </div>
+            <div class="form-group">
                 <label class="" for="color">رنگ کلاس :</label>
                 <input class="{{ $errors->has('color') ? 'is-invalid' : '' }}" style="vertical-align: top;margin-left: 3px"  type="color" name="color"  value="{{ old('color',$lesson->color) }}" required>
                 @if($errors->has('end_time'))
@@ -102,7 +112,5 @@
         </form>
     </div>
 </div>
-
-
 
 @endsection

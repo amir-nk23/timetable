@@ -5,6 +5,7 @@ namespace App\Http\Requests;
 use App\Lesson;
 use App\Rules\LessonTimeAvailabilityRule;
 use Gate;
+use Hekmatinasser\Verta\Facades\Verta;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -40,6 +41,14 @@ class StoreLessonRequest extends FormRequest
                 'after:start_time',
                 'date_format:' . config('panel.lesson_time_format')],
             'title'=>['required','string'],
+            'end_date'=>['required',]
         ];
+    }
+    protected function prepareForValidation()
+    {
+       $this->merge([
+           'end_date'=>Verta::parse($this->input('end_date'))->datetime()
+       ]);
+
     }
 }

@@ -15,6 +15,7 @@ class CreateLessonsTable extends Migration
             $table->string('title');
             $table->time('start_time');
             $table->time('end_time');
+            $table->date('end_date');
             $table->timestamps();
             $table->softDeletes();
         });

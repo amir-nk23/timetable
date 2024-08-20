@@ -32,7 +32,9 @@
                                         @if (is_array($value))
                                             <td rowspan="{{ $value['rowspan'] }}" class="align-middle text-center" style="background-color:{{$value['color']}};">
                                                 {{ $value['class_name'] }}<br>
-                                                مدرس : {{ $value['teacher_name'] }}
+                                                مدرس : {{ $value['teacher_name'] }}<br>
+                                                عنوان درس : {{ $value['title'] }}<br>
+                                               تاریخ پایان کلاس : <span dir="rtl">{{$value['end_date'] }}</span>
                                             </td>
                                         @elseif ($value === 1)
                                             <td></td>

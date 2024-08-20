@@ -29,7 +29,8 @@ class Lesson extends Model
         'created_at',
         'updated_at',
         'deleted_at',
-        'title'
+        'title',
+        'end_date'
     ];
 
     const WEEK_DAYS = [
@@ -62,18 +63,22 @@ class Lesson extends Model
         return $value ? Carbon::createFromFormat('H:i:s', $value)->format(config('panel.lesson_time_format')) : null;
     }
 
+//    public function getEndDateAttribute($value)
+//    {
+//        return $this->attributes['end_date'] = verta($value);
+//    }
     public function showDay()
     {
         $weekDay =self::WEEK_DAYS;
-
             foreach ($weekDay as $key => $value) {
-
                     if ($this->getAttribute('weekday') == $key) {
 
                         return $this->setAttribute('day', $value);
                     }
             }
     }
+
+
 
     public function setEndTimeAttribute($value)
     {

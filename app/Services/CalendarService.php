@@ -29,6 +29,8 @@ class CalendarService
                         'class_name'   => $lesson->class->name,
                         'teacher_name' => $lesson->teacher->name,
                         'color' => $lesson->color,
+                        'title'=>$lesson->title,
+                        'end_date'=>verta($lesson->end_date)->formatDate(),
                         'rowspan' => $lesson->difference/30 ?? ''
                     ]);
                 }

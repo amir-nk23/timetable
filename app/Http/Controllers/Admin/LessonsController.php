@@ -11,6 +11,7 @@ use App\SchoolClass;
 use App\User;
 use Dflydev\DotAccessData\Data;
 use Gate;
+use Hekmatinasser\Verta\Facades\Verta;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -35,14 +36,13 @@ class LessonsController extends Controller
 
             $query->where('title','مدرس');
 
-        })->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), );
+        })->pluck('name', 'id');
         $weekDays = Lesson::WEEK_DAYS;
         return view('admin.lessons.create', compact('classes', 'teachers','weekDays'));
     }
 
     public function store(StoreLessonRequest $request)
     {
-        dd($request->all());
         $lesson = Lesson::create($request->all());
 
         return redirect()->route('admin.lessons.index');
@@ -54,10 +54,12 @@ class LessonsController extends Controller
 
         $classes = SchoolClass::all()->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
 
-        $teachers = User::all()->pluck('name', 'id')->prepend(trans('global.pleaseSelect'), '');
+        $teachers = User::query()->whereHas('roles',function ($query){
 
+            $query->where('title','مدرس');
+
+        })->pluck('name', 'id');
         $lesson->load('class', 'teacher');
-
         $weekDays = Lesson::WEEK_DAYS;
         return view('admin.lessons.edit', compact('classes', 'teachers', 'lesson','weekDays'));
     }

@@ -223,12 +223,24 @@
 
         $('.normal-example').persianDatepicker({
 
+            initialValue:true,
             initialValueType: 'gregorian',
             format: 'YYYY/MM/DD',
-            position:[-100,0]
-
+            position:[-100,0],
+            minDate: Date.now()
             }
         );
+
+        $('.edit-end-date').persianDatepicker({
+
+
+                initialValueType: 'gregorian',
+                format: 'YYYY/MM/DD',
+                position:[-100,0],
+                minDate: Date.now()
+            }
+        );
+
 
 
 

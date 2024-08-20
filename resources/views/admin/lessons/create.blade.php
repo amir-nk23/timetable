@@ -39,7 +39,7 @@
             </div>
             <div class="form-group">
                 <label class="required" for="title">عنوان درس :</label>
-                <input class="form-control {{ $errors->has('title') ? 'is-invalid' : '' }}" type="text" name="title" id="weekday" value="{{ old('title') }}" step="1" required>
+                <input class="form-control {{ $errors->has('title') ? 'is-invalid' : '' }}" type="text" name="title" id="weekday" value="{{old('title') }}" step="1" required>
                 @if($errors->has('title'))
                     <div class="invalid-feedback">
                         {{ $errors->first('title') }}
